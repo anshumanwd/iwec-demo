@@ -1,0 +1,52 @@
+$colors: (
+	common: (
+		white: #FFFDF8, // Cream White
+		black: #000000,
+	),
+
+	heading: (
+		primary: #3B1F2B, // Espresso Brown
+	),
+
+	text: (
+		body: #3B1F2B,        // Main body text
+		body-2: #7A4A5A,      // Muted burgundy text
+		body-3: #8E6A78,      // Secondary soft text
+		body-4: #2A141D,      // Dark espresso
+		body-5: #ffffffcc,   // Light text on dark bg
+	),
+
+	theme: (
+		primary: #7A1F3D, // Royal Burgundy
+		bg: #FFFDF8,      // Cream White
+		bg-2: #F4D7E0,    // Dusty Blush
+		bg-3: #3B1F2B,    // Espresso background
+		dark: #2A141D,
+		dark-2: #3B1F2B,
+		dark-3: #7A4A5A,
+		dark-4: #8E6A78,
+		dark-5: #A88C96,
+	),
+
+	gold: (
+		1: #E1B55A, // Metallic Gold (CTA, highlights)
+	),
+
+	red: (
+		1: #7A1F3D, // Burgundy replaces harsh red
+	),
+
+	grey: (
+		1: #F7E9ED, // Light blush-grey
+		2: #C8AAB4, // Muted blush
+		3: #ffffff1a,
+	),
+
+	border: (
+		1: #E6C8D2,   // Soft blush border
+		2: #3B1F2B,   // Dark espresso border
+		3: #ffffff26,
+		4: #ffffff33,
+		5: #E1B55A33, // Gold accent border
+	),
+);

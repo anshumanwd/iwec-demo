@@ -1,0 +1,62 @@
+[
+	{
+		"img": "/images/brands/caixa-bank.png",
+		"text": "Founding Sponsors",
+		"link": "https://www.caixabank.es/"
+	},
+	{
+		"img": "/images/brands/iese-business-school.png",
+		"text": "Founding Sponsors",
+		"link": "https://www.iese.edu/"
+	},
+	{
+		"img": "/images/brands/ace-health-foundation.png",
+		"text": "Diamond Sponsors",
+		"link": "https://www.acehealthfoundation.org/"
+	},
+	{
+		"img": "/images/brands/coca-cola.png",
+		"text": "Diamond Sponsors",
+		"link": "https://www.coca-cola.com/"
+	},
+	{
+		"img": "/images/brands/sdi.png",
+		"text": "Diamond Sponsors",
+		"link": "https://www.sdintl.com/"
+	},
+	{
+		"img": "/images/brands/fortis-lux-financial.png",
+		"text": "Silver Sponsors",
+		"link": "https://fortislux.com/"
+	},
+	{
+		"img": "/images/brands/flomo.png",
+		"text": "Silver Sponsors",
+		"link": "https://www.flomousa.com/"
+	},
+	{
+		"img": "/images/brands/pc.png",
+		"text": "Bronze Sponsors",
+		"link": "https://www.progressivecomputing.com/"
+	},
+	{
+		"img": "/images/brands/flomo.png",
+		"text": "Friends",
+		"link": "https://www.eriksen.com/"
+	},
+	{
+		"img": "/images/brands/eriksen-translations.png",
+		"text": "Friends",
+		"link": "https://www.eriksen.com/"
+	},
+	{
+		"img": "/images/brands/imm-usa.png",
+		"text": "Friends",
+		"link": "https://www.immusa.org/"
+	},
+	{
+		"img": "/images/brands/edge-city-design.jpg",
+		"text": "Friends",
+		"link": "https://www.edgecitydesign.com/"
+	}
+]
