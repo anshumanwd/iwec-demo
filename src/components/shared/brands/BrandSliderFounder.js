@@ -30,7 +30,7 @@ const BrandSliderFounder = ({ className }) => {
 			{brands?.length
 				? brands?.map(({ img, text, link }, idx) => (
 						<SwiperSlide key={idx} className="client-item">
-							<div className="client-logo" onClick={goto(link)}>
+							<div className="client-logo-1" onClick={goto(link)}>
 								<img
 									src={img ? img : "/images/brands/brand-1.webp"}
 									alt="Brand"

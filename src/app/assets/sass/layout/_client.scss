@@ -233,6 +233,41 @@ START: Client CSS
 	}
 }
 
+.client-logo-1 {
+	width: 444px;
+	height: 240px;
+	background-color: var(--tj-color-common-white);
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	padding-top: 40px;
+	z-index: 5;
+	border-radius: 8px;
+
+	@media #{$lg, $md} {
+		width: 220px;
+		height: 150px;
+	}
+	@media #{$sm, $xs} {
+		width: 190px;
+		height: 110px;
+		padding: 20px;
+	}
+}
+.client-logo-1 {
+	p {
+		margin-top: 3px;
+		margin-bottom: 3px;
+		font-size: 18px;
+		text-align: center;
+		color: var(--tj-color-text-body-2);
+		@media #{$sm, $xs} {
+			font-size: 12px;
+		}
+	}
+}
+
 .client-slider-2 {
 	.client-logo {
 		background: transparent;
