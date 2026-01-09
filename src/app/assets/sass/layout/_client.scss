@@ -19,6 +19,7 @@ START: Client CSS
 		}
 	}
 }
+
 .client-section-gap {
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -211,11 +212,11 @@ START: Client CSS
 
 	@media #{$lg, $md} {
 		width: 220px;
-		height: 90px;
+		height: 150px;
 	}
 	@media #{$sm, $xs} {
 		width: 190px;
-		height: 70px;
+		height: 110px;
 		padding: 20px;
 	}
 }

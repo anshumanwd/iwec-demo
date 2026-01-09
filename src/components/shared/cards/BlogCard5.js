@@ -19,7 +19,7 @@ const BlogCard5 = ({ blog, idx, hasNoDesc }) => {
 			className="blog-item style-2 h5-blog-item wow fadeInUp"
 			data-wow-delay={`${makeWowDelay(idx, 0.3, 2)}`}			suppressHydrationWarning		>
 			<div className="blog-thumb">
-				<Link href={`/blogs/${id}`}>
+				<Link href={`#`}>
 					<img src={img3} alt="" />
 				</Link>
 				<div className="blog-date">
@@ -31,20 +31,20 @@ const BlogCard5 = ({ blog, idx, hasNoDesc }) => {
 				<div className="title-area">
 					<div className="blog-meta">
 						<span className="categories">
-							<Link href={`/blogs?category=${makePath(category)}`}>
+							<Link href={`#`}>
 								{category}
 							</Link>
 						</span>
 						<span>
-							By <Link href={`/blogs/${id}`}>Ellinien Loma</Link>
+							By <Link href={`#`}>IWEC Foundation</Link>
 						</span>
 					</div>
 					<h4 className="title">
-						<Link href={`/blogs/${id}`}>{title}</Link>
+						<Link href={`#`}>{title}</Link>
 					</h4>
 					{idx === 0 ? hasNoDesc ? "" : <p className="desc">{desc}</p> : ""}
 				</div>
-				<Link className="text-btn" href={`/blogs/${id}`}>
+				<Link className="text-btn" href={`#`}>
 					<span className="btn-text">
 						<span>Read More</span>
 					</span>

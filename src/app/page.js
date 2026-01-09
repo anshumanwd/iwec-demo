@@ -17,6 +17,7 @@ import BackToTop from "@/components/shared/others/BackToTop";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import About12 from "@/components/sections/about/About12";
 import BrandFound from "@/components/sections/brands/BrandFound";
+import BrandFound2 from "@/components/sections/brands/BrandFound2";
 
 export default function Home() {
 	return (
@@ -24,8 +25,8 @@ export default function Home() {
 			<Hero5 />
 			<About12 />
 			<BrandFound />
-			<Brands2 />
-			<Brands2 />
+			<BrandFound2 />
+			<Blogs5 />
 		</>
 	);
 }

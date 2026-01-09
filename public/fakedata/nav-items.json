@@ -43,55 +43,56 @@
 	},
 	{
 		"id": 4,
-		"name": "Portfolio",
-		"path": "/portfolios",
+		"name": "Work",
+		"path": "/work",
 		"submenu": [
 			{
 				"id": 1,
-				"name": "Portfolios",
-				"path": "/portfolios"
+				"name": "Conferences",
+				"path": "/work/conferences"
 			},
 			{
 				"id": 2,
-				"name": "Portfolio details",
-				"path": "/portfolios/1"
+				"name": "Impact",
+				"path": "/work/impact"
+			},
+			{
+				"id": 3,
+				"name": "Press",
+				"path": "/work/press"
 			}
 		]
 	},
 	{
 		"id": 5,
-		"name": "Blog",
-		"path": "/blogs",
+		"name": "Network",
+		"path": "/network",
 		"submenu": [
 			{
 				"id": 1,
-				"name": "Blog",
-				"path": "/blogs",
-				"badge": "NEW"
+				"name": "Awardees",
+				"path": "/network/awardees"
 			},
 			{
 				"id": 2,
-				"name": "Blog grid",
-				"path": "/blog-grid",
-				"badge": null
+				"name": "Chamber Partners",
+				"path": "/network/chamber-partners"
 			},
 			{
 				"id": 3,
-				"name": "Blog with sidebar",
-				"path": "/blog-sidebar",
-				"badge": null
+				"name": "Affiliate Partners",
+				"path": "/network/affiliate-partners"
 			},
 			{
 				"id": 4,
-				"name": "Blog details",
-				"path": "/blogs/1",
-				"badge": null
+				"name": "Global Ambassadors",
+				"path": "/network/global-ambassadors"
 			}
 		]
 	},
 	{
 		"id": 6,
-		"name": "Contact",
-		"path": "/contact"
+		"name": "News & Articles",
+		"path": "/news-articles"
 	}
 ]

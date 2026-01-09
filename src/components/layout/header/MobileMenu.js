@@ -23,7 +23,7 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 						<div className="hamburger_top d-flex align-items-center justify-content-between">
 							<div className="hamburger_logo">
 								<Link href="/" className="mobile_logo">
-									<img src="/images/logos/logo-2.webp" alt="Logo" />
+									<img src="/images/logos/logo-white.svg" style={{height:"100px"}} alt="Logos" />
 								</Link>
 							</div>
 							<div className="hamburger_close">
@@ -33,57 +33,35 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
 							</div>
 						</div>
 						<MobileNavbar />
-						<div className="hamburger-infos">
-							<h5 className="hamburger-title">Contact Info</h5>
-							<div className="contact-info">
-								<div className="contact-item">
-									<span className="subtitle">Phone</span>
-									<Link className="contact-link" href="tel:8089091313">
-										808-909-1313
-									</Link>
-								</div>
-								<div className="contact-item">
-									<span className="subtitle">Email</span>
-									<Link className="contact-link" href="mailto:info@bexon.com">
-										info@bexon.com
-									</Link>
-								</div>
-								<div className="contact-item">
-									<span className="subtitle">Location</span>
-									<span className="contact-link">
-										993 Renner Burg, West Rond, MT 94251-030
-									</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="hamburger-socials">
+						<div className="hamburger-socials">
 						<h5 className="hamburger-title">Follow Us</h5>
 						<div className="social-links style-3">
 							<ul>
 								<li>
-									<Link href="https://www.facebook.com/" target="_blank">
+									<a href="https://www.facebook.com/IWECFoundation" target="_blank">
 										<i className="fa-brands fa-facebook-f"></i>
-									</Link>
+									</a>
 								</li>
 								<li>
-									<Link href="https://www.instagram.com/" target="_blank">
+									<a href="https://www.instagram.com/iwecfoundation" target="_blank">
 										<i className="fa-brands fa-instagram"></i>
-									</Link>
+									</a>
 								</li>
 								<li>
-									<Link href="https://x.com/" target="_blank">
+									<a href="https://twitter.com/iwecawards" target="_blank">
 										<i className="fa-brands fa-x-twitter"></i>
-									</Link>
+									</a>
 								</li>
 								<li>
-									<Link href="https://www.linkedin.com/" target="_blank">
+									<a href="https://www.linkedin.com/company/iwecfoundation" target="_blank">
 										<i className="fa-brands fa-linkedin-in"></i>
-									</Link>
+									</a>
 								</li>
 							</ul>
 						</div>
 					</div>
+					</div>
+					
 				</div>
 			</div>
 		</>
