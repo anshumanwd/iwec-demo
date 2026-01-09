@@ -9,21 +9,14 @@ import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 export default function NotFound() {
 	return (
 		<div>
-			<BackToTop />
-			<Header />
-			<Header isStickyHeader={true} />
 			<div id="smooth-wrapper">
 				<div id="smooth-content">
 					<main>
-						<HeaderSpace />
-						<HeroInner title={"Error 404"} text={"Error 404"} />
 						<ErrorPrimary />
-						<Cta />
 					</main>
-					<Footer />
 				</div>
 			</div>
-			<ClientWrapper />
+			
 		</div>
 	);
 }

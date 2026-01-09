@@ -20,7 +20,6 @@ export default function ErrorCustom() {
 						<ErrorPrimary />
 						<Cta />
 					</main>
-					<Footer />
 				</div>
 			</div>
 			<ClientWrapper />

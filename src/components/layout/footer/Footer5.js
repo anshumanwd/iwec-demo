@@ -130,7 +130,7 @@ const Footer5 = () => {
 										<Link href="/refund-policy/">Refund Policy</Link>
 									</li>
 									<li>
-										<Link href="/faq/">FAQ</Link>
+										<Link href="/work/faq/">FAQ</Link>
 									</li>
 								</ul>
 							</div>
@@ -209,7 +209,7 @@ const Footer5 = () => {
 											<Link href="/privacy-policy">Privacy Policy</Link>
 										</li>
 										<li>
-											<Link href="/terms-and-conditions">
+											<Link href="/a/terms-and-conditions">
 												Terms & Condition
 											</Link>
 										</li>
