@@ -14,7 +14,7 @@ const Hero5 = () => {
 						Empowering Women Entrepreneurs Globally
 					</h1>
 					<div className="btn-area wow fadeInUp" data-wow-delay=".8s" suppressHydrationWarning>
-						<ButtonPrimary text={"Contact Us Now"} url={"/contact"} />
+						<ButtonPrimary text={"Contact Us Now"} url={"#"} />
 					</div>
 				</div>
 				<div className="solution-box">

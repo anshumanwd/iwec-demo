@@ -1,24 +1,32 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
-
+import AnimatedText from "@/components/shared/wrappers/AnimatedText";
+import Image from "next/image";
+import Link from "next/link";
 const About12 = () => {
 	return (
 		<section className="tj-history section-gap">
 			<div className="container">
-				<div className="row rg-30 justify-content-between">
-					<div className="col-xl-5">
+				<div className="row  justify-content-between">
+					<div className="col-xl-6">
 						<div className="sec-heading mb-0">
 							<span className="sub-title wow fadeInUp" data-wow-delay="0.1s" suppressHydrationWarning>
 								<i className="tji-box"></i> Our Mission
 							</span>
-							<h2 className="sec-title text-anim">
-								Discover How We Have Evolved Our Company’s on{" "}
-								<span suppressHydrationWarning>Legacy.</span>
-							</h2>
+							<div className="blog-thumb wow fadeInRight" data-wow-delay="0.7s" suppressHydrationWarning>
+								<Image
+									src="/images/blog/women.jpg"
+									alt="Images"
+									width={800}
+									height={494}
+									className="attachment-full size-full wp-post-image"
+									style={{height:"auto"}}
+								/>
+							</div>
 						</div>
 					</div>
-					<div className="col-xl-5 text-justify">
+					<div className="col-xl-6 text-justify">
 						<div className="desc wow fadeInUp" data-wow-delay="0.3s" suppressHydrationWarning>
-							<p>
+							<p className="mt-5">
 								Our mission is to connect, support, and advance a global network of accomplished women business owners through strategic partnerships with international chambers of commerce and women’s business organizations. Headquartered in New York City, the IWEC Foundation serves women who are actively engaged in the global marketplace and seeking to scale internationally, as well as those well-positioned to enter international markets.
 							</p>
 							<p>
@@ -30,7 +38,7 @@ const About12 = () => {
 							data-wow-delay="0.5s"
 							suppressHydrationWarning
 						>
-							<ButtonPrimary text={"Learn More"} url={"/about"} />
+							<ButtonPrimary text={"Learn More"} url={"#"} />
 						</div>
 					</div>
 				</div>
