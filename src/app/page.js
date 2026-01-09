@@ -24,9 +24,7 @@ export default function Home() {
 	return (
 		<>
 			<Hero5 />
-			<section id="choose" className="tj-choose-section section-gap">
-				<Funfact1 />
-			</section>
+			<Funfact1 />
 			<Features2 />
 			<About12 />
 			<BrandFound />
