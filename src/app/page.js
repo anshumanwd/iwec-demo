@@ -6,7 +6,7 @@ import Brands2 from "@/components/sections/brands/Brands2";
 import Brands4 from "@/components/sections/brands/Brands4";
 import Brands3 from "@/components/sections/brands/Brands3";
 import Hero5 from "@/components/sections/hero/Hero5";
-import FeatureMarquee from "@/components/sections/marquee/FeatureMarquee";
+import Features2 from "@/components/sections/features/Features2";
 import Portfolios5 from "@/components/sections/portfolios/Portfolios5";
 import PricingPlan3 from "@/components/sections/pricing-plan/PricingPlan3";
 import Process2 from "@/components/sections/process/Process2";
@@ -18,11 +18,16 @@ import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import About12 from "@/components/sections/about/About12";
 import BrandFound from "@/components/sections/brands/BrandFound";
 import BrandFound2 from "@/components/sections/brands/BrandFound2";
+import Funfact1 from "@/components/sections/funfacts/Funfact1";
 
 export default function Home() {
 	return (
 		<>
 			<Hero5 />
+			<section id="choose" className="tj-choose-section section-gap">
+				<Funfact1 />
+			</section>
+			<Features2 />
 			<About12 />
 			<BrandFound />
 			<BrandFound2 />

@@ -18,18 +18,15 @@ const Hero5 = () => {
 					</div>
 				</div>
 				<div className="solution-box">
-					<span className="list-icon">
-						<i className="tji-list"></i>
-					</span>
 					<p className="desc">
-						Our mission is to connect, support, and grow a global network of women business owners.
+						Shared Annual Revenue US$ Billion
 					</p>
 					<FunfactSingle
 						type={2}
-						currentValue={125}
+						currentValue={50.40}
 						symbol={
 							<>
-								K<sup>+</sup>
+								B<sup>+</sup>
 							</>
 						}
 					/>

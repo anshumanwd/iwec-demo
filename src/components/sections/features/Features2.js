@@ -4,27 +4,28 @@ const Features2 = () => {
 	const features = [
 		{
 			id: 1,
-			title: "Innovative Solutions",
+			title: "Visibility",
 			icon: "tji-innovative",
-			desc: "We stay ahead of the leveraging cutting-edge technologies and strategies to keep.",
+			desc: "Recognize successful women business owners on a global scale.",
 		},
 		{
 			id: 2,
-			title: "Award-Winning",
+			title: "Education",
 			icon: "tji-award",
-			desc: "Recognized by industry leaders, our award-winning team has a proven record.",
+			desc: "Provide education to support and further advance women-owned business growth through shared business knowledge and resources.",
 		},
 		{
 			id: 3,
-			title: "Expert Team",
+			title: "Connections",
 			icon: "tji-team",
-			desc: "Our team is always available to address your concerns, providing quick and solution.",
+			desc: "Create a global network and enable female entrepreneurs to connect locally, nationally, and internationally.",
 		},
 		{
-			id: 3,
-			title: "Dedicated Support",
+			id: 4,
+			title: "Market Intelligence",
 			icon: "tji-support",
-			desc: "Our team is always available to address your concerns, providing quick and effective.",
+			desc: "",
+			desc: "Provide data and insights to drive global economic growth. ",
 		},
 	];
 	return (
@@ -37,7 +38,7 @@ const Features2 = () => {
 								<i className="tji-box"></i>Choose the Best
 							</span>
 							<h2 className="sec-title title-anim">
-								Empowering Business with Expertise.
+								Empowering Women Entrepreneurs Through Expertise
 							</h2>
 						</div>
 					</div>
@@ -48,7 +49,7 @@ const Features2 = () => {
 								<div key={idx} className="col-xl-3 col-md-6">
 									<FeatureCard2 feature={feature} idx={idx} />
 								</div>
-						  ))
+						))
 						: ""}
 				</div>
 			</div>

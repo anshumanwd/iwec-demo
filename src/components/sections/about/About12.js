@@ -14,7 +14,7 @@ const About12 = () => {
 							</span>
 							<div className="blog-thumb wow fadeInRight" data-wow-delay="0.7s" suppressHydrationWarning>
 								<Image
-									src="/images/blog/women.jpg"
+									src="/images/blog/women.png"
 									alt="Images"
 									width={800}
 									height={494}
